@@ -1,0 +1,90 @@
+body{
+  background-color: green;
+}
+.grid-container {
+          display: grid;
+          grid-template-columns: repeat(1,1fr) 3fr;     
+          /* If you have a container that is 800px wide:
+          The first column (1fr) will be 200px wide (1 part of 4 parts).
+          The second column (3fr) will be 600px wide (3 parts of 4 parts).
+          
+          fr-fraction of the available space
+          Dividing the available space into fractions
+          */
+          gap: 20px;
+          padding: 20px;
+      }
+
+.header{
+  border: 8px solid yellow;
+  border-radius: 30px;
+}
+
+.name {
+  color: white;
+  text-align: center;
+  font-size: 100 px;
+}
+.header:hover{
+  background-color:red;
+  
+}
+
+.Profile:hover{
+  color: red;
+}
+
+
+
+.Profile{
+  color: black;
+  
+}
+
+p{
+  color: white;
+  font-size: 18px;
+  
+}
+
+.menu{
+  text-align: center;
+  /* margin-top: 100px; */
+  background-color: blueviolet;
+  padding: 40px;
+  gap: 100px;
+  border-radius: 20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a{
+  color: white
+
+}
+
+h2{
+  border: 3px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+}
+h2:hover{
+  color: rgb(231, 18, 18);
+  background-color: azure;
+}
+
+
+
+
+
+
+.certifications-details{
+  padding: 20px;
+  color: ;
+}
+
+.info{
+  padding: 70px;
+}
